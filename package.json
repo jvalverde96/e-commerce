@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce-perfumes",
+  "version": "1.0.0",
+  "description": "Perfume e-commerce app",
+  "main": "server.ts",
+  "scripts": {
+    "start": "node api/server.ts",
+    "server": "nodemon --exec ts-node api/server.ts"
+  },
+  "author": "Javier Valverde",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
