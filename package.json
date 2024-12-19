@@ -10,6 +10,8 @@
   "author": "Javier Valverde",
   "license": "MIT",
   "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
     "colors": "^1.4.0",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
