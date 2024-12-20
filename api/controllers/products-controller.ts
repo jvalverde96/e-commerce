@@ -1,7 +1,9 @@
 import { Request, Response } from 'express';
+import Perfume, { IPerfume } from '../models/product';
 
 export const getProducts = async (req: Request, res: Response) => {
-  res.status(200).json({ message: 'Products' });
+  const products: IPerfume[] = await Perfume.find();
+  res.status(200).json(products);
 };
 
 export const createProduct = async (req: Request, res: Response) => {
