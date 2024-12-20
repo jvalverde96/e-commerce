@@ -1,0 +1,457 @@
+[
+  {
+    "name": "Valentino Uomo",
+    "brand": "Valentino",
+    "description": "A refined, woody fragrance for men, blending leather, hazelnut, and coffee notes.",
+    "gender": "Men",
+    "price": 110,
+    "sizes": [
+      {
+        "ml": "100ml",
+        "oz": "3.4oz",
+        "stock": 50
+      }
+    ],
+    "notes": {
+      "top": ["Citrus", "Spices"],
+      "middle": ["Leather", "Hazelnut", "Cacao"],
+      "base": ["Wood", "Amber"]
+    },
+    "totalStock": 50,
+    "releaseDate": "2014-08-01T00:00:00Z",
+    "images": ["https://example.com/valentino_uomo.jpg"]
+  },
+  {
+    "name": "Azzaro Wanted",
+    "brand": "Azzaro",
+    "description": "A bold, fresh, and woody fragrance for men with notes of ginger, lemon, and tonka bean.",
+    "gender": "Men",
+    "price": 85,
+    "sizes": [
+      {
+        "ml": "100ml",
+        "oz": "3.4oz",
+        "stock": 60
+      },
+      {
+        "ml": "50ml",
+        "oz": "1.6oz",
+        "stock": 10
+      }
+    ],
+    "notes": {
+      "top": ["Ginger", "Lemon"],
+      "middle": ["Juniper", "Cardamom"],
+      "base": ["Tonka Bean", "Amberwood"]
+    },
+    "totalStock": 60,
+    "releaseDate": "2016-04-01T00:00:00Z",
+    "images": ["https://example.com/azzaro_wanted.jpg"]
+  },
+  {
+    "name": "Halloween Man",
+    "brand": "Halloween",
+    "description": "A warm, spicy fragrance for men with vanilla, leather, and woody undertones.",
+    "gender": "Men",
+    "price": 60,
+    "sizes": [
+      {
+        "ml": "200ml",
+        "oz": "6.7oz",
+        "stock": 23
+      },
+      {
+        "ml": "100ml",
+        "oz": "3.4oz",
+        "stock": 75
+      },
+      {
+        "ml": "50ml",
+        "oz": "1.6oz",
+        "stock": 11
+      }
+    ],
+    "notes": {
+      "top": ["Citrus", "Bergamot"],
+      "middle": ["Lavender", "Spices"],
+      "base": ["Vanilla", "Leather", "Wood"]
+    },
+    "totalStock": 75,
+    "releaseDate": "2012-01-01T00:00:00Z",
+    "images": ["https://example.com/halloween_man.jpg"]
+  },
+  {
+    "name": "Giorgio Armani Acqua di Giò",
+    "brand": "Giorgio Armani",
+    "description": "A classic aquatic fragrance with notes of citrus, jasmine, and sea notes.",
+    "gender": "Men",
+    "price": 120,
+    "sizes": [
+      {
+        "ml": "100ml",
+        "oz": "3.4oz",
+        "stock": 100
+      }
+    ],
+    "notes": {
+      "top": ["Citrus", "Neroli"],
+      "middle": ["Jasmine", "Rose"],
+      "base": ["Patchouli", "Amber"]
+    },
+    "totalStock": 100,
+    "releaseDate": "1996-03-01T00:00:00Z",
+    "images": ["https://example.com/armani_acqua_di_gio.jpg"]
+  },
+  {
+    "name": "Jean Paul Gaultier Le Male",
+    "brand": "Jean Paul Gaultier",
+    "description": "A sweet, spicy fragrance with notes of lavender, mint, and vanilla, perfect for men.",
+    "gender": "Men",
+    "price": 95,
+    "sizes": [
+      {
+        "ml": "125ml",
+        "oz": "4.2oz",
+        "stock": 80
+      }
+    ],
+    "notes": {
+      "top": ["Mint", "Lavender"],
+      "middle": ["Cinnamon", "Orange Blossom"],
+      "base": ["Vanilla", "Tonka Bean"]
+    },
+    "totalStock": 80,
+    "releaseDate": "1995-01-01T00:00:00Z",
+    "images": ["https://example.com/jpg_le_male.jpg"]
+  },
+  {
+    "name": "Viktor & Rolf Flowerbomb",
+    "brand": "Viktor & Rolf",
+    "description": "A bold floral fragrance, bursting with notes of jasmine, orange blossom, and patchouli.",
+    "gender": "Women",
+    "price": 150,
+    "sizes": [
+      {
+        "ml": "100ml",
+        "oz": "3.4oz",
+        "stock": 65
+      }
+    ],
+    "notes": {
+      "top": ["Bergamot", "Tea"],
+      "middle": ["Jasmine", "Orange Blossom"],
+      "base": ["Patchouli", "Vanilla"]
+    },
+    "totalStock": 65,
+    "releaseDate": "2005-09-01T00:00:00Z",
+    "images": ["https://example.com/flowerbomb.jpg"]
+  },
+  {
+    "name": "Versace Eros",
+    "brand": "Versace",
+    "description": "A sensual fragrance with fresh, woody, and oriental notes of mint, tonka bean, and vanilla.",
+    "gender": "Men",
+    "price": 110,
+    "sizes": [
+      {
+        "ml": "100ml",
+        "oz": "3.4oz",
+        "stock": 45
+      }
+    ],
+    "notes": {
+      "top": ["Mint", "Green Apple"],
+      "middle": ["Tonka Bean", "Geranium"],
+      "base": ["Vanilla", "Cedarwood"]
+    },
+    "totalStock": 45,
+    "releaseDate": "2012-01-01T00:00:00Z",
+    "images": ["https://example.com/versace_eros.jpg"]
+  },
+  {
+    "name": "Calvin Klein Eternity",
+    "brand": "Calvin Klein",
+    "description": "A romantic, classic fragrance for women, with notes of lily, freesia, and sandalwood.",
+    "gender": "Women",
+    "price": 85,
+    "sizes": [
+      {
+        "ml": "100ml",
+        "oz": "3.4oz",
+        "stock": 55
+      }
+    ],
+    "notes": {
+      "top": ["Citrus", "Green Notes"],
+      "middle": ["Lily", "Freesia"],
+      "base": ["Sandalwood", "Amber"]
+    },
+    "totalStock": 55,
+    "releaseDate": "1988-03-01T00:00:00Z",
+    "images": ["https://example.com/eternity.jpg"]
+  },
+  {
+    "name": "Chanel No. 5",
+    "brand": "Chanel",
+    "description": "The iconic floral aldehyde fragrance, featuring notes of jasmine, rose, and sandalwood.",
+    "gender": "Women",
+    "price": 180,
+    "sizes": [
+      {
+        "ml": "100ml",
+        "oz": "3.4oz",
+        "stock": 40
+      }
+    ],
+    "notes": {
+      "top": ["Aldehydes", "Ylang-Ylang"],
+      "middle": ["Jasmine", "Rose"],
+      "base": ["Sandalwood", "Vanilla"]
+    },
+    "totalStock": 40,
+    "releaseDate": "1921-01-01T00:00:00Z",
+    "images": ["https://example.com/chanel_no5.jpg"]
+  },
+  {
+    "name": "Prada L'Homme",
+    "brand": "Prada",
+    "description": "A sophisticated woody floral fragrance for men with iris, amber, and leather.",
+    "gender": "Men",
+    "price": 120,
+    "sizes": [
+      {
+        "ml": "100ml",
+        "oz": "3.4oz",
+        "stock": 70
+      }
+    ],
+    "notes": {
+      "top": ["Iris", "Amber"],
+      "middle": ["Cedarwood", "Patchouli"],
+      "base": ["Leather", "Vanilla"]
+    },
+    "totalStock": 70,
+    "releaseDate": "2016-01-01T00:00:00Z",
+    "images": ["https://example.com/prada_lhomme.jpg"]
+  },
+  {
+    "name": "Issey Miyake L'Eau d'Issey",
+    "brand": "Issey Miyake",
+    "description": "A fresh aquatic fragrance for women with floral notes of lotus, rose, and sandalwood.",
+    "gender": "Women",
+    "price": 95,
+    "sizes": [
+      {
+        "ml": "100ml",
+        "oz": "3.4oz",
+        "stock": 50
+      }
+    ],
+    "notes": {
+      "top": ["Lotus", "Melon"],
+      "middle": ["Rose", "Lily"],
+      "base": ["Sandalwood", "Musk"]
+    },
+    "totalStock": 50,
+    "releaseDate": "1992-04-01T00:00:00Z",
+    "images": ["https://example.com/issey_elle.jpg"]
+  },
+  {
+    "name": "Lattafa Raghba",
+    "brand": "Lattafa",
+    "description": "A sweet and woody oriental fragrance with vanilla, oud, and caramel notes.",
+    "gender": "Unisex",
+    "price": 45,
+    "sizes": [
+      {
+        "ml": "100ml",
+        "oz": "3.4oz",
+        "stock": 120
+      }
+    ],
+    "notes": {
+      "top": ["Vanilla", "Citrus"],
+      "middle": ["Oud", "Spices"],
+      "base": ["Caramel", "Wood"]
+    },
+    "totalStock": 120,
+    "releaseDate": "2013-05-01T00:00:00Z",
+    "images": ["https://example.com/lattafa_raghba.jpg"]
+  },
+  {
+    "name": "Afnan Supremacy Silver",
+    "brand": "Afnan",
+    "description": "A fresh, citrusy fragrance for men with notes of bergamot, lavender, and musk.",
+    "gender": "Men",
+    "price": 55,
+    "sizes": [
+      {
+        "ml": "100ml",
+        "oz": "3.4oz",
+        "stock": 80
+      }
+    ],
+    "notes": {
+      "top": ["Bergamot", "Lemon"],
+      "middle": ["Lavender", "Spices"],
+      "base": ["Musk", "Woody Notes"]
+    },
+    "totalStock": 80,
+    "releaseDate": "2015-06-01T00:00:00Z",
+    "images": ["https://example.com/afnan_supremacy_silver.jpg"]
+  },
+  {
+    "name": "Paco Rabanne 1 Million",
+    "brand": "Paco Rabanne",
+    "description": "A rich, spicy fragrance for men with notes of cinnamon, rose, and leather.",
+    "gender": "Men",
+    "price": 100,
+    "sizes": [
+      {
+        "ml": "100ml",
+        "oz": "3.4oz",
+        "stock": 90
+      }
+    ],
+    "notes": {
+      "top": ["Grapefruit", "Mint"],
+      "middle": ["Rose", "Cinnamon"],
+      "base": ["Leather", "Amber"]
+    },
+    "totalStock": 90,
+    "releaseDate": "2008-01-01T00:00:00Z",
+    "images": ["https://example.com/paco_1million.jpg"]
+  },
+  {
+    "name": "Carolina Herrera Good Girl",
+    "brand": "Carolina Herrera",
+    "description": "A captivating fragrance for women with notes of almond, coffee, and tuberose.",
+    "gender": "Women",
+    "price": 120,
+    "sizes": [
+      {
+        "ml": "80ml",
+        "oz": "2.7oz",
+        "stock": 50
+      }
+    ],
+    "notes": {
+      "top": ["Almond", "Coffee"],
+      "middle": ["Tuberose", "Jasmine"],
+      "base": ["Cocoa", "Tonka Bean"]
+    },
+    "totalStock": 50,
+    "releaseDate": "2016-09-01T00:00:00Z",
+    "images": ["https://example.com/good_girl.jpg"]
+  },
+  {
+    "name": "Yves Saint Laurent Black Opium",
+    "brand": "Yves Saint Laurent",
+    "description": "An addictive fragrance for women, with notes of coffee, vanilla, and white flowers.",
+    "gender": "Women",
+    "price": 130,
+    "sizes": [
+      {
+        "ml": "90ml",
+        "oz": "3.0oz",
+        "stock": 65
+      }
+    ],
+    "notes": {
+      "top": ["Pink Pepper", "Orange Blossom"],
+      "middle": ["Coffee", "Jasmine"],
+      "base": ["Vanilla", "Patchouli"]
+    },
+    "totalStock": 65,
+    "releaseDate": "2014-09-01T00:00:00Z",
+    "images": ["https://example.com/ysl_black_opium.jpg"]
+  },
+  {
+    "name": "Tom Ford Black Orchid",
+    "brand": "Tom Ford",
+    "description": "A luxurious fragrance with notes of black orchid, patchouli, and dark chocolate.",
+    "gender": "Unisex",
+    "price": 190,
+    "sizes": [
+      {
+        "ml": "100ml",
+        "oz": "3.4oz",
+        "stock": 60
+      }
+    ],
+    "notes": {
+      "top": ["Black Orchid", "Bergamot"],
+      "middle": ["Spices", "Fruity Notes"],
+      "base": ["Patchouli", "Chocolate"]
+    },
+    "totalStock": 60,
+    "releaseDate": "2006-01-01T00:00:00Z",
+    "images": ["https://example.com/tom_ford_black_orchid.jpg"]
+  },
+  {
+    "name": "Creed Aventus",
+    "brand": "Creed",
+    "description": "A fresh and fruity fragrance with notes of pineapple, birch, and musk, loved by many.",
+    "gender": "Men",
+    "price": 300,
+    "sizes": [
+      {
+        "ml": "100ml",
+        "oz": "3.4oz",
+        "stock": 30
+      }
+    ],
+    "notes": {
+      "top": ["Pineapple", "Bergamot"],
+      "middle": ["Birch", "Jasmine"],
+      "base": ["Musk", "Oakmoss"]
+    },
+    "totalStock": 30,
+    "releaseDate": "2010-01-01T00:00:00Z",
+    "images": ["https://example.com/creed_aventus.jpg"]
+  },
+  {
+    "name": "Parfums de Marley Layton",
+    "brand": "Parfums de Marley",
+    "description": "A warm and spicy fragrance for men, featuring notes of apple, vanilla, and cardamom.",
+    "gender": "Men",
+    "price": 220,
+    "sizes": [
+      {
+        "ml": "75ml",
+        "oz": "2.5oz",
+        "stock": 40
+      }
+    ],
+    "notes": {
+      "top": ["Apple", "Lavender"],
+      "middle": ["Cardamom", "Jasmine"],
+      "base": ["Vanilla", "Cedarwood"]
+    },
+    "totalStock": 40,
+    "releaseDate": "2016-01-01T00:00:00Z",
+    "images": ["https://example.com/pdm_layton.jpg"]
+  },
+  {
+    "name": "Hermès Terre d'Hermès",
+    "brand": "Hermès",
+    "description": "A sophisticated fragrance for men with earthy, citrus, and woody notes.",
+    "gender": "Men",
+    "price": 150,
+    "sizes": [
+      {
+        "ml": "100ml",
+        "oz": "3.4oz",
+        "stock": 85
+      }
+    ],
+    "notes": {
+      "top": ["Orange", "Grapefruit"],
+      "middle": ["Pelargonium", "Flint"],
+      "base": ["Vetiver", "Cedarwood"]
+    },
+    "totalStock": 85,
+    "releaseDate": "2006-01-01T00:00:00Z",
+    "images": ["https://example.com/terredhermes.jpg"]
+  }
+]
