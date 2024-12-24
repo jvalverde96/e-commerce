@@ -1,457 +1,961 @@
 [
   {
-    "name": "Valentino Uomo",
-    "brand": "Valentino",
-    "description": "A refined, woody fragrance for men, blending leather, hazelnut, and coffee notes.",
-    "gender": "Men",
-    "price": 110,
-    "sizes": [
-      {
-        "ml": "100ml",
-        "oz": "3.4oz",
-        "stock": 50
-      }
-    ],
-    "notes": {
-      "top": ["Citrus", "Spices"],
-      "middle": ["Leather", "Hazelnut", "Cacao"],
-      "base": ["Wood", "Amber"]
-    },
-    "totalStock": 50,
-    "releaseDate": "2014-08-01T00:00:00Z",
-    "images": ["https://example.com/valentino_uomo.jpg"]
-  },
-  {
-    "name": "Azzaro Wanted",
-    "brand": "Azzaro",
-    "description": "A bold, fresh, and woody fragrance for men with notes of ginger, lemon, and tonka bean.",
-    "gender": "Men",
-    "price": 85,
-    "sizes": [
-      {
-        "ml": "100ml",
-        "oz": "3.4oz",
-        "stock": 60
-      },
-      {
-        "ml": "50ml",
-        "oz": "1.6oz",
-        "stock": 10
-      }
-    ],
-    "notes": {
-      "top": ["Ginger", "Lemon"],
-      "middle": ["Juniper", "Cardamom"],
-      "base": ["Tonka Bean", "Amberwood"]
-    },
-    "totalStock": 60,
-    "releaseDate": "2016-04-01T00:00:00Z",
-    "images": ["https://example.com/azzaro_wanted.jpg"]
-  },
-  {
-    "name": "Halloween Man",
-    "brand": "Halloween",
-    "description": "A warm, spicy fragrance for men with vanilla, leather, and woody undertones.",
-    "gender": "Men",
-    "price": 60,
-    "sizes": [
-      {
-        "ml": "200ml",
-        "oz": "6.7oz",
-        "stock": 23
-      },
-      {
-        "ml": "100ml",
-        "oz": "3.4oz",
-        "stock": 75
-      },
-      {
-        "ml": "50ml",
-        "oz": "1.6oz",
-        "stock": 11
-      }
-    ],
-    "notes": {
-      "top": ["Citrus", "Bergamot"],
-      "middle": ["Lavender", "Spices"],
-      "base": ["Vanilla", "Leather", "Wood"]
-    },
-    "totalStock": 75,
-    "releaseDate": "2012-01-01T00:00:00Z",
-    "images": ["https://example.com/halloween_man.jpg"]
-  },
-  {
-    "name": "Giorgio Armani Acqua di Giò",
+    "name": "Acqua di Gio",
     "brand": "Giorgio Armani",
-    "description": "A classic aquatic fragrance with notes of citrus, jasmine, and sea notes.",
+    "description": "A fresh aquatic fragrance inspired by the Mediterranean sea.",
     "gender": "Men",
-    "price": 120,
+    "concentration": "Eu De Toilette",
     "sizes": [
       {
-        "ml": "100ml",
-        "oz": "3.4oz",
-        "stock": 100
+        "ml": "50",
+        "oz": "1.7",
+        "stock": 120,
+        "priceUSD": 75,
+        "priceCRC": 42750
+      },
+      {
+        "ml": "100",
+        "oz": "3.4",
+        "stock": 80,
+        "priceUSD": 110,
+        "priceCRC": 62700
       }
     ],
     "notes": {
-      "top": ["Citrus", "Neroli"],
-      "middle": ["Jasmine", "Rose"],
-      "base": ["Patchouli", "Amber"]
+      "top": ["Bergamot", "Neroli", "Green Tangerine"],
+      "middle": ["Jasmine", "Rosemary", "Persimmon"],
+      "base": ["Patchouli", "Amber", "Musk"]
     },
-    "totalStock": 100,
-    "releaseDate": "1996-03-01T00:00:00Z",
-    "images": ["https://example.com/armani_acqua_di_gio.jpg"]
-  },
-  {
-    "name": "Jean Paul Gaultier Le Male",
-    "brand": "Jean Paul Gaultier",
-    "description": "A sweet, spicy fragrance with notes of lavender, mint, and vanilla, perfect for men.",
-    "gender": "Men",
-    "price": 95,
-    "sizes": [
-      {
-        "ml": "125ml",
-        "oz": "4.2oz",
-        "stock": 80
-      }
-    ],
-    "notes": {
-      "top": ["Mint", "Lavender"],
-      "middle": ["Cinnamon", "Orange Blossom"],
-      "base": ["Vanilla", "Tonka Bean"]
-    },
-    "totalStock": 80,
-    "releaseDate": "1995-01-01T00:00:00Z",
-    "images": ["https://example.com/jpg_le_male.jpg"]
-  },
-  {
-    "name": "Viktor & Rolf Flowerbomb",
-    "brand": "Viktor & Rolf",
-    "description": "A bold floral fragrance, bursting with notes of jasmine, orange blossom, and patchouli.",
-    "gender": "Women",
-    "price": 150,
-    "sizes": [
-      {
-        "ml": "100ml",
-        "oz": "3.4oz",
-        "stock": 65
-      }
-    ],
-    "notes": {
-      "top": ["Bergamot", "Tea"],
-      "middle": ["Jasmine", "Orange Blossom"],
-      "base": ["Patchouli", "Vanilla"]
-    },
-    "totalStock": 65,
-    "releaseDate": "2005-09-01T00:00:00Z",
-    "images": ["https://example.com/flowerbomb.jpg"]
-  },
-  {
-    "name": "Versace Eros",
-    "brand": "Versace",
-    "description": "A sensual fragrance with fresh, woody, and oriental notes of mint, tonka bean, and vanilla.",
-    "gender": "Men",
-    "price": 110,
-    "sizes": [
-      {
-        "ml": "100ml",
-        "oz": "3.4oz",
-        "stock": 45
-      }
-    ],
-    "notes": {
-      "top": ["Mint", "Green Apple"],
-      "middle": ["Tonka Bean", "Geranium"],
-      "base": ["Vanilla", "Cedarwood"]
-    },
-    "totalStock": 45,
-    "releaseDate": "2012-01-01T00:00:00Z",
-    "images": ["https://example.com/versace_eros.jpg"]
-  },
-  {
-    "name": "Calvin Klein Eternity",
-    "brand": "Calvin Klein",
-    "description": "A romantic, classic fragrance for women, with notes of lily, freesia, and sandalwood.",
-    "gender": "Women",
-    "price": 85,
-    "sizes": [
-      {
-        "ml": "100ml",
-        "oz": "3.4oz",
-        "stock": 55
-      }
-    ],
-    "notes": {
-      "top": ["Citrus", "Green Notes"],
-      "middle": ["Lily", "Freesia"],
-      "base": ["Sandalwood", "Amber"]
-    },
-    "totalStock": 55,
-    "releaseDate": "1988-03-01T00:00:00Z",
-    "images": ["https://example.com/eternity.jpg"]
+    "releaseDate": "1996-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/acqua-di-gio-1.jpg",
+      "https://example.com/images/acqua-di-gio-2.jpg"
+    ]
   },
   {
     "name": "Chanel No. 5",
     "brand": "Chanel",
-    "description": "The iconic floral aldehyde fragrance, featuring notes of jasmine, rose, and sandalwood.",
+    "description": "An iconic floral fragrance, timeless and sophisticated.",
     "gender": "Women",
-    "price": 180,
+    "concentration": "Eu De Parfum",
     "sizes": [
       {
-        "ml": "100ml",
-        "oz": "3.4oz",
-        "stock": 40
+        "ml": "50",
+        "oz": "1.7",
+        "stock": 60,
+        "priceUSD": 110,
+        "priceCRC": 62700
+      },
+      {
+        "ml": "100",
+        "oz": "3.4",
+        "stock": 40,
+        "priceUSD": 160,
+        "priceCRC": 91200
       }
     ],
     "notes": {
-      "top": ["Aldehydes", "Ylang-Ylang"],
-      "middle": ["Jasmine", "Rose"],
-      "base": ["Sandalwood", "Vanilla"]
+      "top": ["Aldehydes", "Neroli", "Ylang-Ylang"],
+      "middle": ["Jasmine", "Rose", "Lily of the Valley"],
+      "base": ["Sandalwood", "Vanilla", "Vetiver"]
     },
-    "totalStock": 40,
-    "releaseDate": "1921-01-01T00:00:00Z",
-    "images": ["https://example.com/chanel_no5.jpg"]
+    "releaseDate": "1921-05-05T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/chanel-no-5-1.jpg",
+      "https://example.com/images/chanel-no-5-2.jpg"
+    ]
   },
   {
-    "name": "Prada L'Homme",
-    "brand": "Prada",
-    "description": "A sophisticated woody floral fragrance for men with iris, amber, and leather.",
+    "name": "Dior Sauvage",
+    "brand": "Dior",
+    "description": "A bold and fresh fragrance inspired by wide-open spaces.",
     "gender": "Men",
-    "price": 120,
+    "concentration": "Eu De Toilette",
     "sizes": [
       {
-        "ml": "100ml",
-        "oz": "3.4oz",
-        "stock": 70
+        "ml": "60",
+        "oz": "2.0",
+        "stock": 150,
+        "priceUSD": 85,
+        "priceCRC": 48450
+      },
+      {
+        "ml": "100",
+        "oz": "3.4",
+        "stock": 100,
+        "priceUSD": 120,
+        "priceCRC": 68400
       }
     ],
     "notes": {
-      "top": ["Iris", "Amber"],
-      "middle": ["Cedarwood", "Patchouli"],
-      "base": ["Leather", "Vanilla"]
+      "top": ["Calabrian Bergamot", "Pepper"],
+      "middle": ["Lavender", "Star Anise", "Nutmeg"],
+      "base": ["Ambroxan", "Vanilla", "Cedar"]
     },
-    "totalStock": 70,
-    "releaseDate": "2016-01-01T00:00:00Z",
-    "images": ["https://example.com/prada_lhomme.jpg"]
+    "releaseDate": "2015-09-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/dior-sauvage-1.jpg",
+      "https://example.com/images/dior-sauvage-2.jpg"
+    ]
   },
   {
-    "name": "Issey Miyake L'Eau d'Issey",
-    "brand": "Issey Miyake",
-    "description": "A fresh aquatic fragrance for women with floral notes of lotus, rose, and sandalwood.",
+    "name": "Bleu de Chanel",
+    "brand": "Chanel",
+    "description": "A woody aromatic fragrance for the determined man.",
+    "gender": "Men",
+    "concentration": "Parfum",
+    "sizes": [
+      {
+        "ml": "50",
+        "oz": "1.7",
+        "stock": 100,
+        "priceUSD": 90,
+        "priceCRC": 51300
+      },
+      {
+        "ml": "100",
+        "oz": "3.4",
+        "stock": 70,
+        "priceUSD": 130,
+        "priceCRC": 74100
+      }
+    ],
+    "notes": {
+      "top": ["Citrus Accord", "Pink Pepper", "Mint"],
+      "middle": ["Grapefruit", "Ginger", "Jasmine"],
+      "base": ["Sandalwood", "Cedar", "Amber"]
+    },
+    "releaseDate": "2010-09-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/bleu-de-chanel-1.jpg",
+      "https://example.com/images/bleu-de-chanel-2.jpg"
+    ]
+  },
+  {
+    "name": "La Vie Est Belle",
+    "brand": "Lancôme",
+    "description": "A floral gourmand fragrance, joyful and radiant.",
     "gender": "Women",
-    "price": 95,
+    "concentration": "Eu De Parfum",
     "sizes": [
       {
-        "ml": "100ml",
-        "oz": "3.4oz",
-        "stock": 50
+        "ml": "50",
+        "oz": "1.7",
+        "stock": 90,
+        "priceUSD": 100,
+        "priceCRC": 57000
+      },
+      {
+        "ml": "100",
+        "oz": "3.4",
+        "stock": 50,
+        "priceUSD": 150,
+        "priceCRC": 85500
       }
     ],
     "notes": {
-      "top": ["Lotus", "Melon"],
-      "middle": ["Rose", "Lily"],
-      "base": ["Sandalwood", "Musk"]
+      "top": ["Blackcurrant", "Pear"],
+      "middle": ["Iris", "Jasmine", "Orange Blossom"],
+      "base": ["Praline", "Vanilla", "Patchouli"]
     },
-    "totalStock": 50,
-    "releaseDate": "1992-04-01T00:00:00Z",
-    "images": ["https://example.com/issey_elle.jpg"]
+    "releaseDate": "2012-09-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/la-vie-est-belle-1.jpg",
+      "https://example.com/images/la-vie-est-belle-2.jpg"
+    ]
   },
   {
-    "name": "Lattafa Raghba",
-    "brand": "Lattafa",
-    "description": "A sweet and woody oriental fragrance with vanilla, oud, and caramel notes.",
-    "gender": "Unisex",
-    "price": 45,
+    "name": "Light Blue",
+    "brand": "Dolce & Gabbana",
+    "description": "A fresh fruity floral inspired by the Mediterranean summer.",
+    "gender": "Women",
+    "concentration": "Eu De Toilette",
     "sizes": [
       {
-        "ml": "100ml",
-        "oz": "3.4oz",
-        "stock": 120
+        "ml": "50",
+        "oz": "1.7",
+        "stock": 75,
+        "priceUSD": 80,
+        "priceCRC": 45600
+      },
+      {
+        "ml": "100",
+        "oz": "3.4",
+        "stock": 60,
+        "priceUSD": 120,
+        "priceCRC": 68400
       }
     ],
     "notes": {
-      "top": ["Vanilla", "Citrus"],
-      "middle": ["Oud", "Spices"],
-      "base": ["Caramel", "Wood"]
+      "top": ["Sicilian Lemon", "Apple", "Cedar"],
+      "middle": ["Bamboo", "Jasmine", "White Rose"],
+      "base": ["Amber", "Musk", "Cedar"]
     },
-    "totalStock": 120,
-    "releaseDate": "2013-05-01T00:00:00Z",
-    "images": ["https://example.com/lattafa_raghba.jpg"]
+    "releaseDate": "2001-06-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/light-blue-1.jpg",
+      "https://example.com/images/light-blue-2.jpg"
+    ]
   },
   {
-    "name": "Afnan Supremacy Silver",
-    "brand": "Afnan",
-    "description": "A fresh, citrusy fragrance for men with notes of bergamot, lavender, and musk.",
-    "gender": "Men",
-    "price": 55,
-    "sizes": [
-      {
-        "ml": "100ml",
-        "oz": "3.4oz",
-        "stock": 80
-      }
-    ],
-    "notes": {
-      "top": ["Bergamot", "Lemon"],
-      "middle": ["Lavender", "Spices"],
-      "base": ["Musk", "Woody Notes"]
-    },
-    "totalStock": 80,
-    "releaseDate": "2015-06-01T00:00:00Z",
-    "images": ["https://example.com/afnan_supremacy_silver.jpg"]
-  },
-  {
-    "name": "Paco Rabanne 1 Million",
-    "brand": "Paco Rabanne",
-    "description": "A rich, spicy fragrance for men with notes of cinnamon, rose, and leather.",
-    "gender": "Men",
-    "price": 100,
-    "sizes": [
-      {
-        "ml": "100ml",
-        "oz": "3.4oz",
-        "stock": 90
-      }
-    ],
-    "notes": {
-      "top": ["Grapefruit", "Mint"],
-      "middle": ["Rose", "Cinnamon"],
-      "base": ["Leather", "Amber"]
-    },
-    "totalStock": 90,
-    "releaseDate": "2008-01-01T00:00:00Z",
-    "images": ["https://example.com/paco_1million.jpg"]
-  },
-  {
-    "name": "Carolina Herrera Good Girl",
+    "name": "Good Girl",
     "brand": "Carolina Herrera",
-    "description": "A captivating fragrance for women with notes of almond, coffee, and tuberose.",
+    "description": "A bold, seductive fragrance with an intriguing duality.",
     "gender": "Women",
-    "price": 120,
+    "concentration": "Eau de Parfum",
     "sizes": [
       {
-        "ml": "80ml",
-        "oz": "2.7oz",
-        "stock": 50
+        "ml": "50",
+        "oz": "1.7",
+        "stock": 70,
+        "priceUSD": 100,
+        "priceCRC": 57000
+      },
+      {
+        "ml": "80",
+        "oz": "2.7",
+        "stock": 40,
+        "priceUSD": 140,
+        "priceCRC": 79800
       }
     ],
     "notes": {
       "top": ["Almond", "Coffee"],
-      "middle": ["Tuberose", "Jasmine"],
-      "base": ["Cocoa", "Tonka Bean"]
+      "middle": ["Jasmine Sambac", "Tuberose"],
+      "base": ["Tonka Bean", "Cacao"]
     },
-    "totalStock": 50,
-    "releaseDate": "2016-09-01T00:00:00Z",
-    "images": ["https://example.com/good_girl.jpg"]
+    "releaseDate": "2016-08-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/good-girl-1.jpg",
+      "https://example.com/images/good-girl-2.jpg"
+    ]
   },
   {
-    "name": "Yves Saint Laurent Black Opium",
-    "brand": "Yves Saint Laurent",
-    "description": "An addictive fragrance for women, with notes of coffee, vanilla, and white flowers.",
+    "name": "The One",
+    "brand": "Dolce & Gabbana",
+    "description": "A warm, spicy oriental fragrance for confident men.",
+    "gender": "Men",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      {
+        "ml": "50",
+        "oz": "1.7",
+        "stock": 110,
+        "priceUSD": 85,
+        "priceCRC": 48450
+      },
+      {
+        "ml": "100",
+        "oz": "3.4",
+        "stock": 70,
+        "priceUSD": 120,
+        "priceCRC": 68400
+      }
+    ],
+    "notes": {
+      "top": ["Grapefruit", "Coriander", "Basil"],
+      "middle": ["Cardamom", "Ginger"],
+      "base": ["Tobacco", "Amber", "Cedarwood"]
+    },
+    "releaseDate": "2008-09-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/the-one-1.jpg",
+      "https://example.com/images/the-one-2.jpg"
+    ]
+  },
+  {
+    "name": "Eros",
+    "brand": "Versace",
+    "description": "A bold and seductive fragrance inspired by Greek mythology.",
+    "gender": "Men",
+    "concentration": "Eau de Toilette",
+    "sizes": [
+      {
+        "ml": "50",
+        "oz": "1.7",
+        "stock": 120,
+        "priceUSD": 95,
+        "priceCRC": 54150
+      },
+      {
+        "ml": "100",
+        "oz": "3.4",
+        "stock": 80,
+        "priceUSD": 130,
+        "priceCRC": 74100
+      }
+    ],
+    "notes": {
+      "top": ["Mint", "Green Apple", "Lemon"],
+      "middle": ["Tonka Bean", "Geranium", "Ambroxan"],
+      "base": ["Vanilla", "Cedarwood", "Vetiver"]
+    },
+    "releaseDate": "2012-10-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/eros-1.jpg",
+      "https://example.com/images/eros-2.jpg"
+    ]
+  },
+  {
+    "name": "Flowerbomb",
+    "brand": "Viktor & Rolf",
+    "description": "An explosive floral bouquet with notes of patchouli and vanilla.",
     "gender": "Women",
-    "price": 130,
+    "concentration": "Eau de Parfum",
     "sizes": [
       {
-        "ml": "90ml",
-        "oz": "3.0oz",
-        "stock": 65
+        "ml": "50",
+        "oz": "1.7",
+        "stock": 90,
+        "priceUSD": 115,
+        "priceCRC": 65550
+      },
+      {
+        "ml": "100",
+        "oz": "3.4",
+        "stock": 70,
+        "priceUSD": 165,
+        "priceCRC": 94050
       }
     ],
     "notes": {
-      "top": ["Pink Pepper", "Orange Blossom"],
-      "middle": ["Coffee", "Jasmine"],
-      "base": ["Vanilla", "Patchouli"]
+      "top": ["Bergamot", "Tea"],
+      "middle": ["Jasmine", "Orange Blossom", "Freesia"],
+      "base": ["Patchouli", "Vanilla"]
     },
-    "totalStock": 65,
-    "releaseDate": "2014-09-01T00:00:00Z",
-    "images": ["https://example.com/ysl_black_opium.jpg"]
+    "releaseDate": "2005-12-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/flowerbomb-1.jpg",
+      "https://example.com/images/flowerbomb-2.jpg"
+    ]
   },
   {
-    "name": "Tom Ford Black Orchid",
-    "brand": "Tom Ford",
-    "description": "A luxurious fragrance with notes of black orchid, patchouli, and dark chocolate.",
-    "gender": "Unisex",
-    "price": 190,
+    "name": "Gucci Bloom",
+    "brand": "Gucci",
+    "description": "A rich white floral scent capturing the spirit of contemporary women.",
+    "gender": "Women",
+    "concentration": "Eau de Parfum",
     "sizes": [
       {
-        "ml": "100ml",
-        "oz": "3.4oz",
-        "stock": 60
+        "ml": "30",
+        "oz": "1.0",
+        "stock": 70,
+        "priceUSD": 80,
+        "priceCRC": 45600
+      },
+      {
+        "ml": "100",
+        "oz": "3.4",
+        "stock": 50,
+        "priceUSD": 120,
+        "priceCRC": 68400
       }
     ],
     "notes": {
-      "top": ["Black Orchid", "Bergamot"],
-      "middle": ["Spices", "Fruity Notes"],
-      "base": ["Patchouli", "Chocolate"]
+      "top": ["Rangoon Creeper"],
+      "middle": ["Jasmine Bud"],
+      "base": ["Tuberose"]
     },
-    "totalStock": 60,
-    "releaseDate": "2006-01-01T00:00:00Z",
-    "images": ["https://example.com/tom_ford_black_orchid.jpg"]
+    "releaseDate": "2017-08-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/gucci-bloom-1.jpg",
+      "https://example.com/images/gucci-bloom-2.jpg"
+    ]
+  },
+  {
+    "name": "Valentino Uomo Born in Roma Intense",
+    "brand": "Valentino",
+    "description": "A bold and sophisticated fragrance blending vanilla and vetiver for an intense experience.",
+    "gender": "Men",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 50, "oz": 1.7, "stock": 100, "priceUSD": 95, "priceCRC": 54150 },
+      { "ml": 100, "oz": 3.4, "stock": 50, "priceUSD": 135, "priceCRC": 76950 }
+    ],
+    "notes": {
+      "top": ["Vanilla"],
+      "middle": ["Lavender"],
+      "base": ["Vetiver"]
+    },
+    "releaseDate": "2023-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/valentino-uomo-born-in-roma-intense-1.jpg",
+      "https://example.com/images/valentino-uomo-born-in-roma-intense-2.jpg"
+    ]
+  },
+  {
+    "name": "Jean Paul Gaultier Le Male Elixir",
+    "brand": "Jean Paul Gaultier",
+    "description": "An intensified version of the classic Le Male, offering a richer and deeper scent experience.",
+    "gender": "Men",
+    "concentration": "Parfum",
+    "sizes": [
+      { "ml": 75, "oz": 2.5, "stock": 80, "priceUSD": 110, "priceCRC": 62700 },
+      { "ml": 125, "oz": 4.2, "stock": 40, "priceUSD": 150, "priceCRC": 85500 }
+    ],
+    "notes": {
+      "top": ["Lavender"],
+      "middle": ["Mint"],
+      "base": ["Vanilla"]
+    },
+    "releaseDate": "2023-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/jpg-le-male-elixir-1.jpg",
+      "https://example.com/images/jpg-le-male-elixir-2.jpg"
+    ]
+  },
+  {
+    "name": "Jean Paul Gaultier Le Male Le Parfum",
+    "brand": "Jean Paul Gaultier",
+    "description": "A sophisticated and intense reinterpretation of the iconic Le Male fragrance.",
+    "gender": "Men",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 75, "oz": 2.5, "stock": 90, "priceUSD": 105, "priceCRC": 59850 },
+      { "ml": 125, "oz": 4.2, "stock": 60, "priceUSD": 145, "priceCRC": 82650 }
+    ],
+    "notes": {
+      "top": ["Cardamom"],
+      "middle": ["Lavender"],
+      "base": ["Vanilla"]
+    },
+    "releaseDate": "2020-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/jpg-le-male-le-parfum-1.jpg",
+      "https://example.com/images/jpg-le-male-le-parfum-2.jpg"
+    ]
+  },
+  {
+    "name": "Jean Paul Gaultier Le Beau Le Parfum",
+    "brand": "Jean Paul Gaultier",
+    "description": "A more intense and seductive version of Le Beau, with deeper and richer notes.",
+    "gender": "Men",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 75, "oz": 2.5, "stock": 85, "priceUSD": 100, "priceCRC": 57000 },
+      { "ml": 125, "oz": 4.2, "stock": 55, "priceUSD": 140, "priceCRC": 79800 }
+    ],
+    "notes": {
+      "top": ["Coconut"],
+      "middle": ["Tonka Bean"],
+      "base": ["Amber"]
+    },
+    "releaseDate": "2022-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/jpg-le-beau-le-parfum-1.jpg",
+      "https://example.com/images/jpg-le-beau-le-parfum-2.jpg"
+    ]
+  },
+  {
+    "name": "Emporio Armani Stronger With You Intensely",
+    "brand": "Giorgio Armani",
+    "description": "An intensified version of Stronger With You, featuring warm and spicy accords.",
+    "gender": "Men",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 50, "oz": 1.7, "stock": 95, "priceUSD": 90, "priceCRC": 51300 },
+      { "ml": 100, "oz": 3.4, "stock": 65, "priceUSD": 130, "priceCRC": 74100 }
+    ],
+    "notes": {
+      "top": ["Pink Pepper"],
+      "middle": ["Lavender"],
+      "base": ["Vanilla"]
+    },
+    "releaseDate": "2019-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/armani-stronger-with-you-intensely-1.jpg",
+      "https://example.com/images/armani-stronger-with-you-intensely-2.jpg"
+    ]
+  },
+  {
+    "name": "Viktor & Rolf Spicebomb Dark Leather",
+    "brand": "Viktor & Rolf",
+    "description": "A limited edition of Spicebomb, enriched with dark leather accords for a more intense scent.",
+    "gender": "Men",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 90, "oz": 3.0, "stock": 70, "priceUSD": 120, "priceCRC": 68400 }
+    ],
+    "notes": {
+      "top": ["Grapefruit"],
+      "middle": ["Cinnamon"],
+      "base": ["Leather"]
+    },
+    "releaseDate": "2018-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/viktor-rolf-spicebomb-dark-leather-1.jpg",
+      "https://example.com/images/viktor-rolf-spicebomb-dark-leather-2.jpg"
+    ]
+  },
+  {
+    "name": "Bentley for Men Intense",
+    "brand": "Bentley",
+    "description": "A luxurious and rich fragrance with a bold blend of spices, woods, and leather.",
+    "gender": "Men",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 100, "oz": 3.4, "stock": 75, "priceUSD": 50, "priceCRC": 28500 }
+    ],
+    "notes": {
+      "top": ["Bergamot", "Black Pepper"],
+      "middle": ["Clary Sage", "Rum"],
+      "base": ["Leather", "Cedarwood"]
+    },
+    "releaseDate": "2013-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/bentley-for-men-intense-1.jpg",
+      "https://example.com/images/bentley-for-men-intense-2.jpg"
+    ]
+  },
+  {
+    "name": "Montblanc Explorer",
+    "brand": "Montblanc",
+    "description": "A woody aromatic fragrance inspired by adventure and exploration.",
+    "gender": "Men",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 60, "oz": 2.0, "stock": 80, "priceUSD": 65, "priceCRC": 37050 },
+      { "ml": 100, "oz": 3.4, "stock": 60, "priceUSD": 95, "priceCRC": 54150 }
+    ],
+    "notes": {
+      "top": ["Bergamot"],
+      "middle": ["Vetiver"],
+      "base": ["Patchouli"]
+    },
+    "releaseDate": "2019-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/montblanc-explorer-1.jpg",
+      "https://example.com/images/montblanc-explorer-2.jpg"
+    ]
+  },
+  {
+    "name": "Armaf Mandarin Sky",
+    "brand": "Armaf",
+    "description": "A fresh and vibrant fragrance featuring citrusy and woody accords.",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 100, "oz": 3.4, "stock": 100, "priceUSD": 40, "priceCRC": 22800 }
+    ],
+    "notes": {
+      "top": ["Mandarin Orange", "Grapefruit"],
+      "middle": ["Pepper", "Cedarwood"],
+      "base": ["Amber", "Vetiver"]
+    },
+    "releaseDate": "2020-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/armaf-mandarin-sky-1.jpg",
+      "https://example.com/images/armaf-mandarin-sky-2.jpg"
+    ]
+  },
+  {
+    "name": "Lattafa Khamrah",
+    "brand": "Lattafa",
+    "description": "A warm and spicy fragrance with sweet undertones and a blend of oriental spices.",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 100, "oz": 3.4, "stock": 50, "priceUSD": 60, "priceCRC": 34200 }
+    ],
+    "notes": {
+      "top": ["Cinnamon", "Nutmeg"],
+      "middle": ["Praline", "Honey"],
+      "base": ["Vanilla", "Tonka Bean"]
+    },
+    "releaseDate": "2022-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/lattafa-khamrah-1.jpg",
+      "https://example.com/images/lattafa-khamrah-2.jpg"
+    ]
+  },
+  {
+    "name": "Lattafa Eclat D'Arpege",
+    "brand": "Lattafa",
+    "description": "A floral-fruity fragrance with sweet and powdery nuances.",
+    "gender": "Women",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 100, "oz": 3.4, "stock": 80, "priceUSD": 45, "priceCRC": 25650 }
+    ],
+    "notes": {
+      "top": ["Lilac", "Peach"],
+      "middle": ["Green Tea", "Red Peony"],
+      "base": ["White Musk", "Amber"]
+    },
+    "releaseDate": "2021-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/lattafa-eclat-1.jpg",
+      "https://example.com/images/lattafa-eclat-2.jpg"
+    ]
+  },
+  {
+    "name": "Versace Dylan Blue",
+    "brand": "Versace",
+    "description": "A fougère fragrance that embodies strength, passion, and sophistication.",
+    "gender": "Men",
+    "concentration": "Eau de Toilette",
+    "sizes": [
+      { "ml": 50, "oz": 1.7, "stock": 100, "priceUSD": 80, "priceCRC": 45600 },
+      { "ml": 100, "oz": 3.4, "stock": 70, "priceUSD": 110, "priceCRC": 62700 }
+    ],
+    "notes": {
+      "top": ["Calabrian Bergamot"],
+      "middle": ["Patchouli"],
+      "base": ["Tonka Bean"]
+    },
+    "releaseDate": "2016-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/versace-dylan-blue-1.jpg",
+      "https://example.com/images/versace-dylan-blue-2.jpg"
+    ]
+  },
+  {
+    "name": "Salvatore Ferragamo Uomo",
+    "brand": "Salvatore Ferragamo",
+    "description": "A sweet and woody fragrance with gourmand undertones, designed for confident men.",
+    "gender": "Men",
+    "concentration": "Eau de Toilette",
+    "sizes": [
+      { "ml": 100, "oz": 3.4, "stock": 60, "priceUSD": 75, "priceCRC": 45000 }
+    ],
+    "notes": {
+      "top": ["Black Pepper"],
+      "middle": ["Tiramisu"],
+      "base": ["Tonka Bean"]
+    },
+    "releaseDate": "2016-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/ferragamo-uomo-1.jpg",
+      "https://example.com/images/ferragamo-uomo-2.jpg"
+    ]
+  },
+  {
+    "name": "Salvatore Ferragamo Uomo Signature",
+    "brand": "Salvatore Ferragamo",
+    "description": "A darker, spicier version of the original Uomo with leathery and oriental accents.",
+    "gender": "Men",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 100, "oz": 3.4, "stock": 50, "priceUSD": 85, "priceCRC": 51000 }
+    ],
+    "notes": {
+      "top": ["Grapefruit"],
+      "middle": ["Cinnamon"],
+      "base": ["Leather", "Coffee"]
+    },
+    "releaseDate": "2018-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/ferragamo-uomo-signature-1.jpg",
+      "https://example.com/images/ferragamo-uomo-signature-2.jpg"
+    ]
+  },
+  {
+    "name": "Parfums de Marly Layton",
+    "brand": "Parfums de Marly",
+    "description": "A royal fragrance combining floral, spicy, and woody accords for an elegant signature.",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 75, "oz": 2.5, "stock": 90, "priceUSD": 210, "priceCRC": 126000 }
+    ],
+    "notes": {
+      "top": ["Apple", "Bergamot"],
+      "middle": ["Lavender", "Jasmine"],
+      "base": ["Vanilla", "Amber"]
+    },
+    "releaseDate": "2016-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/pdm-layton-1.jpg",
+      "https://example.com/images/pdm-layton-2.jpg"
+    ]
+  },
+  {
+    "name": "Parfums de Marly Althair",
+    "brand": "Parfums de Marly",
+    "description": "A warm and sensual fragrance with creamy and spicy undertones.",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 75, "oz": 2.5, "stock": 75, "priceUSD": 230, "priceCRC": 138000 }
+    ],
+    "notes": {
+      "top": ["Cinnamon"],
+      "middle": ["Vanilla"],
+      "base": ["Amber"]
+    },
+    "releaseDate": "2021-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/pdm-althair-1.jpg",
+      "https://example.com/images/pdm-althair-2.jpg"
+    ]
   },
   {
     "name": "Creed Aventus",
     "brand": "Creed",
-    "description": "A fresh and fruity fragrance with notes of pineapple, birch, and musk, loved by many.",
+    "description": "A powerful, masculine fragrance celebrating strength, vision, and success.",
     "gender": "Men",
-    "price": 300,
+    "concentration": "Eau de Parfum",
     "sizes": [
-      {
-        "ml": "100ml",
-        "oz": "3.4oz",
-        "stock": 30
-      }
+      { "ml": 50, "oz": 1.7, "stock": 50, "priceUSD": 325, "priceCRC": 195000 },
+      { "ml": 100, "oz": 3.4, "stock": 30, "priceUSD": 435, "priceCRC": 261000 }
     ],
     "notes": {
-      "top": ["Pineapple", "Bergamot"],
-      "middle": ["Birch", "Jasmine"],
+      "top": ["Pineapple", "Blackcurrant"],
+      "middle": ["Birch", "Patchouli"],
       "base": ["Musk", "Oakmoss"]
     },
-    "totalStock": 30,
-    "releaseDate": "2010-01-01T00:00:00Z",
-    "images": ["https://example.com/creed_aventus.jpg"]
+    "releaseDate": "2010-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/creed-aventus-1.jpg",
+      "https://example.com/images/creed-aventus-2.jpg"
+    ]
   },
   {
-    "name": "Parfums de Marley Layton",
-    "brand": "Parfums de Marley",
-    "description": "A warm and spicy fragrance for men, featuring notes of apple, vanilla, and cardamom.",
+    "name": "Club de Nuit Intense",
+    "brand": "Armaf",
+    "description": "A bold and smoky fragrance with citrus and woody undertones.",
     "gender": "Men",
-    "price": 220,
+    "concentration": "Eau de Parfum",
     "sizes": [
-      {
-        "ml": "75ml",
-        "oz": "2.5oz",
-        "stock": 40
-      }
+      { "ml": 105, "oz": 3.6, "stock": 70, "priceUSD": 50, "priceCRC": 30000 }
     ],
     "notes": {
-      "top": ["Apple", "Lavender"],
-      "middle": ["Cardamom", "Jasmine"],
-      "base": ["Vanilla", "Cedarwood"]
+      "top": ["Lemon", "Blackcurrant"],
+      "middle": ["Birch", "Jasmine"],
+      "base": ["Ambergris", "Musk"]
     },
-    "totalStock": 40,
-    "releaseDate": "2016-01-01T00:00:00Z",
-    "images": ["https://example.com/pdm_layton.jpg"]
+    "releaseDate": "2015-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/club-de-nuit-intense-1.jpg",
+      "https://example.com/images/club-de-nuit-intense-2.jpg"
+    ]
   },
   {
-    "name": "Hermès Terre d'Hermès",
-    "brand": "Hermès",
-    "description": "A sophisticated fragrance for men with earthy, citrus, and woody notes.",
+    "name": "Club de Nuit Urban Elixir",
+    "brand": "Armaf",
+    "description": "A modern and urban-inspired fragrance with woody and spicy accents.",
     "gender": "Men",
-    "price": 150,
+    "concentration": "Eau de Parfum",
     "sizes": [
-      {
-        "ml": "100ml",
-        "oz": "3.4oz",
-        "stock": 85
-      }
+      { "ml": 100, "oz": 3.4, "stock": 80, "priceUSD": 55, "priceCRC": 33000 }
     ],
     "notes": {
-      "top": ["Orange", "Grapefruit"],
-      "middle": ["Pelargonium", "Flint"],
-      "base": ["Vetiver", "Cedarwood"]
+      "top": ["Grapefruit", "Cardamom"],
+      "middle": ["Lavender", "Geranium"],
+      "base": ["Vetiver", "Patchouli"]
     },
-    "totalStock": 85,
-    "releaseDate": "2006-01-01T00:00:00Z",
-    "images": ["https://example.com/terredhermes.jpg"]
+    "releaseDate": "2021-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/club-de-nuit-urban-elixir-1.jpg",
+      "https://example.com/images/club-de-nuit-urban-elixir-2.jpg"
+    ]
+  },
+  {
+    "name": "Club de Nuit Iconic",
+    "brand": "Armaf",
+    "description": "A sophisticated fragrance blending citrus, floral, and woody notes.",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 105, "oz": 3.6, "stock": 60, "priceUSD": 60, "priceCRC": 36000 }
+    ],
+    "notes": {
+      "top": ["Orange", "Bergamot"],
+      "middle": ["Rose", "Iris"],
+      "base": ["Musk", "Sandalwood"]
+    },
+    "releaseDate": "2020-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/club-de-nuit-iconic-1.jpg",
+      "https://example.com/images/club-de-nuit-iconic-2.jpg"
+    ]
+  },
+  {
+    "name": "Club de Nuit Untold",
+    "brand": "Armaf",
+    "description": "An enigmatic fragrance with a blend of floral, fruity, and warm spicy notes.",
+    "gender": "Unisex",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 105, "oz": 3.6, "stock": 70, "priceUSD": 65, "priceCRC": 39000 }
+    ],
+    "notes": {
+      "top": ["Apple", "Pink Pepper"],
+      "middle": ["Jasmine", "Saffron"],
+      "base": ["Amber", "Woody Notes"]
+    },
+    "releaseDate": "2022-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/club-de-nuit-untold-1.jpg",
+      "https://example.com/images/club-de-nuit-untold-2.jpg"
+    ]
+  },
+  {
+    "name": "Versace Dylan Purple",
+    "brand": "Versace",
+    "description": "A modern, feminine fragrance with fruity and floral accords.",
+    "gender": "Women",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 50, "oz": 1.7, "stock": 80, "priceUSD": 90, "priceCRC": 54000 },
+      { "ml": 100, "oz": 3.4, "stock": 60, "priceUSD": 130, "priceCRC": 78000 }
+    ],
+    "notes": {
+      "top": ["Pear", "Bergamot"],
+      "middle": ["Freesia", "Jasmine"],
+      "base": ["Cedarwood", "Musk"]
+    },
+    "releaseDate": "2022-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/versace-dylan-purple-1.jpg",
+      "https://example.com/images/versace-dylan-purple-2.jpg"
+    ]
+  },
+  {
+    "name": "Versace Bright Crystal",
+    "brand": "Versace",
+    "description": "A radiant fragrance combining floral, fruity, and fresh elements.",
+    "gender": "Women",
+    "concentration": "Eau de Toilette",
+    "sizes": [
+      { "ml": 50, "oz": 1.7, "stock": 90, "priceUSD": 80, "priceCRC": 48000 },
+      { "ml": 90, "oz": 3.0, "stock": 70, "priceUSD": 120, "priceCRC": 72000 }
+    ],
+    "notes": {
+      "top": ["Yuzu", "Pomegranate"],
+      "middle": ["Peony", "Magnolia"],
+      "base": ["Musk", "Amber"]
+    },
+    "releaseDate": "2006-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/versace-bright-crystal-1.jpg",
+      "https://example.com/images/versace-bright-crystal-2.jpg"
+    ]
+  },
+  {
+    "name": "Coco Chanel Mademoiselle",
+    "brand": "Chanel",
+    "description": "A sophisticated and elegant fragrance with fresh and oriental nuances.",
+    "gender": "Women",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 50, "oz": 1.7, "stock": 60, "priceUSD": 145, "priceCRC": 87000 },
+      { "ml": 100, "oz": 3.4, "stock": 40, "priceUSD": 185, "priceCRC": 111000 }
+    ],
+    "notes": {
+      "top": ["Orange", "Bergamot"],
+      "middle": ["Rose", "Jasmine"],
+      "base": ["Patchouli", "Vanilla"]
+    },
+    "releaseDate": "2001-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/coco-chanel-mademoiselle-1.jpg",
+      "https://example.com/images/coco-chanel-mademoiselle-2.jpg"
+    ]
+  },
+  {
+    "name": "La Vie Est Belle",
+    "brand": "Lancôme",
+    "description": "A luminous fragrance celebrating happiness and femininity with sweet and floral accords.",
+    "gender": "Women",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 50, "oz": 1.7, "stock": 70, "priceUSD": 120, "priceCRC": 72000 },
+      { "ml": 100, "oz": 3.4, "stock": 50, "priceUSD": 160, "priceCRC": 96000 }
+    ],
+    "notes": {
+      "top": ["Black Currant", "Pear"],
+      "middle": ["Iris", "Orange Blossom"],
+      "base": ["Praline", "Vanilla"]
+    },
+    "releaseDate": "2012-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/la-vie-est-belle-1.jpg",
+      "https://example.com/images/la-vie-est-belle-2.jpg"
+    ]
+  },
+  {
+    "name": "Miracle",
+    "brand": "Lancôme",
+    "description": "A radiant and modern floral fragrance with hints of spice.",
+    "gender": "Women",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 50, "oz": 1.7, "stock": 80, "priceUSD": 100, "priceCRC": 60000 },
+      { "ml": 100, "oz": 3.4, "stock": 50, "priceUSD": 140, "priceCRC": 84000 }
+    ],
+    "notes": {
+      "top": ["Litchi", "Freesia"],
+      "middle": ["Magnolia", "Ginger"],
+      "base": ["Amber", "Musk"]
+    },
+    "releaseDate": "2000-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/miracle-lancome-1.jpg",
+      "https://example.com/images/miracle-lancome-2.jpg"
+    ]
+  },
+  {
+    "name": "Miss Dior",
+    "brand": "Dior",
+    "description": "A romantic and elegant fragrance with floral and fresh green notes.",
+    "gender": "Women",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 50, "oz": 1.7, "stock": 90, "priceUSD": 135, "priceCRC": 81000 },
+      { "ml": 100, "oz": 3.4, "stock": 70, "priceUSD": 185, "priceCRC": 111000 }
+    ],
+    "notes": {
+      "top": ["Blood Orange"],
+      "middle": ["Grasse Rose", "Jasmine"],
+      "base": ["Patchouli", "Musk"]
+    },
+    "releaseDate": "2012-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/miss-dior-1.jpg",
+      "https://example.com/images/miss-dior-2.jpg"
+    ]
+  },
+  {
+    "name": "Tommy Girl",
+    "brand": "Tommy Hilfiger",
+    "description": "A fresh, floral fragrance inspired by the American spirit.",
+    "gender": "Women",
+    "concentration": "Eau de Toilette",
+    "sizes": [
+      { "ml": 50, "oz": 1.7, "stock": 100, "priceUSD": 55, "priceCRC": 33000 },
+      { "ml": 100, "oz": 3.4, "stock": 80, "priceUSD": 75, "priceCRC": 45000 }
+    ],
+    "notes": {
+      "top": ["Black Currant", "Camellia"],
+      "middle": ["Honeysuckle", "Violet"],
+      "base": ["Leather", "Cedarwood"]
+    },
+    "releaseDate": "1996-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/tommy-girl-1.jpg",
+      "https://example.com/images/tommy-girl-2.jpg"
+    ]
+  },
+  {
+    "name": "Happy",
+    "brand": "Clinique",
+    "description": "A bright and uplifting fragrance with citrus and floral accords.",
+    "gender": "Women",
+    "concentration": "Eau de Parfum",
+    "sizes": [
+      { "ml": 50, "oz": 1.7, "stock": 90, "priceUSD": 70, "priceCRC": 42000 },
+      { "ml": 100, "oz": 3.4, "stock": 60, "priceUSD": 95, "priceCRC": 57000 }
+    ],
+    "notes": {
+      "top": ["Ruby Red Grapefruit"],
+      "middle": ["Mandarin"],
+      "base": ["Mimosa", "Magnolia"]
+    },
+    "releaseDate": "1998-01-01T00:00:00.000Z",
+    "images": [
+      "https://example.com/images/happy-clinique-1.jpg",
+      "https://example.com/images/happy-clinique-2.jpg"
+    ]
   }
 ]

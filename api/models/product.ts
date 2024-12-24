@@ -4,6 +4,8 @@ export interface ISize {
   ml: string;
   oz: string;
   stock: number;
+  priceUSD: number;
+  priceCRC: number;
 }
 
 export interface IPerfume extends Document {
@@ -11,14 +13,13 @@ export interface IPerfume extends Document {
   brand: string;
   description?: string;
   gender: 'Men' | 'Women' | 'Unisex';
-  price: number;
+  concentration: string;
   sizes: ISize[];
   notes: {
     top: string[];
     middle: string[];
     base: string[];
   };
-  totalStock: number;
   releaseDate?: Date;
   images: string[];
 }
@@ -36,6 +37,14 @@ const SizeSchema = new Schema({
     type: Number,
     required: true,
     min: 0,
+  },
+  priceUSD: {
+    type: Number,
+    required: true,
+  },
+  priceCRC: {
+    type: Number,
+    required: true,
   },
 });
 
@@ -60,10 +69,9 @@ const PerfumeSchema = new Schema<IPerfume>(
       enum: ['Men', 'Women', 'Unisex'],
       required: true,
     },
-    price: {
-      type: Number,
+    concentration: {
+      type: String,
       required: true,
-      min: 0,
     },
     sizes: {
       type: [SizeSchema],
@@ -82,11 +90,6 @@ const PerfumeSchema = new Schema<IPerfume>(
         type: [String],
         default: [],
       },
-    },
-    totalStock: {
-      type: Number,
-      required: true,
-      min: 0,
     },
     releaseDate: {
       type: Date,
