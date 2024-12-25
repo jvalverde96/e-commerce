@@ -4,7 +4,7 @@ import routes from './routes/products-routes';
 import { errorHandler } from './middlewares/error-handler';
 import { connectDatabase } from './config/database';
 
-dotenv.config();
+dotenv.config({ path: '../api/.env' });
 
 connectDatabase();
 

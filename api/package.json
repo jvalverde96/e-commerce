@@ -4,8 +4,8 @@
   "description": "Perfume e-commerce app",
   "main": "server.ts",
   "scripts": {
-    "start": "node api/server.ts",
-    "server": "nodemon --exec ts-node api/server.ts"
+    "start": "node src/server.ts",
+    "server": "nodemon --exec ts-node src/server.ts"
   },
   "author": "Javier Valverde",
   "license": "MIT",
