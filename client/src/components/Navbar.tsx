@@ -9,10 +9,15 @@ const Navbar = () => {
   const router = useRouter();
   return (
     <div className="flex items-center justify-between p-4 mx-auto cursor-pointer sm:max-w-4xl md:max-w-6xl">
-      <div className="flex sm:hidden">
-        <MobileMenu />
+      <div className="flex items-center justify-between gap-1 sm:hidden">
+        <div>
+          <MobileMenu />
+        </div>
+        <div>
+          <ThemeToggle />
+        </div>
       </div>
-      <h1 className="text-md sm:text-xl">The Parfum Society</h1>
+      <h1 className="text-md sm:text-xl ">The Parfum Society</h1>
       <div className="items-center justify-between hidden sm:flex">
         <DesktopMenu />
       </div>
@@ -24,7 +29,9 @@ const Navbar = () => {
           onClick={() => router.push('/cart')}
         />
         <User strokeWidth="1.5" className="cursor-pointer w-5 h-5" />
-        <ThemeToggle />
+        <div className="hidden sm:flex">
+          <ThemeToggle />
+        </div>
       </div>
     </div>
   );

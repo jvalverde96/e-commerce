@@ -78,6 +78,21 @@ body {
   }
 }
 
+@layer utilities {
+  .gold-gradient {
+    background-image: linear-gradient(45deg, #ECC440, #FFFA8A, #DDAC17, #FFFF95);
+    background-size: 300% 300%;
+    /* background: rgb(221,172,23);
+    background: linear-gradient(90deg, rgba(221,172,23,1) 1%, rgba(230,192,53,1) 31%, rgba(255,250,138,1) 58%, rgba(255,255,149,1) 100%); */
+    animation: gold-shimmer 3s infinite;
+  }
+  @keyframes gold-shimmer {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+}
+
 @layer base {
   * {
     @apply border-border;
