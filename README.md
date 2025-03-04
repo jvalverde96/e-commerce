@@ -12,16 +12,22 @@ Welcome to the **Perfume E-Commerce Website**! This web application allows users
 
 ## 🛠 Tech Stack
 - **Frontend**: React ⚛️ | TypeScript | TailwindCSS 🎨 | Shadcn UI  
-- **Backend**: Node.js | Express.js | MongoDB | Mongoose | JWT (authentication in progress)  
+- **Backend**: Node.js 🟩 | Express.js | MongoDB 🍃 | Mongoose | JWT (authentication in progress)  
+
 
 ## 🚀 Setup Instructions
-1. Clone the repository:  
-   `git clone https://github.com/jvalverde96/e-commerce.git`
-2. Install dependencies:  
-   `npm install`
-3. Start the development server:  
-   `npm start`
 
----
+### Set Up Environment Variables (for API project)
+1. Inside the `api` folder, copy the content from the `.env.example` file.
+2. Create a new `.env` file in the `api` folder.
+3. Paste the content into the `.env` file and update any necessary values (e.g., database credentials, API keys).
 
-Feel free to explore the website and get a glimpse of the future of online fragrance shopping! 🌸✨  
+### Install Dependencies (for API project)
+1. Navigate to the `api` folder.
+2. Run the following command to install all dependencies:
+   ```bash
+   npm install
+3. Run the following command to install all dependencies:
+   ```bash
+   npm run server
+
