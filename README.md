@@ -31,3 +31,15 @@ Welcome to the **Perfume E-Commerce Website**! This web application allows users
    ```bash
    npm run server
 
+Once the server is up and running, navigate to the frontend folder.
+
+### Install Dependencies (for Frontend project)
+
+1. Navigate to the `client` folder.
+2. Run the following command to install all dependencies:
+   ```bash
+   npm install
+3. Run the following command to install all dependencies:
+   ```bash
+   npm run dev
+
